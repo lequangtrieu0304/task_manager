@@ -1,0 +1,92 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* body{
+  background-color: black;
+} */
+
+.form__content{
+  background-color: rgb(101, 204, 101);
+  width: 40%;
+  margin: 0 auto;
+
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+
+.task-links{
+  margin-left: auto;
+}
+
+.single-task{
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #fff;
+
+  border: 2px solid #fff;
+}
+
+.single-task:hover {
+  background-color: rgb(101, 204, 101);
+}
+
+.single-task:hover .delete-btn{
+  background-color: rgb(101, 204, 101);
+}
+
+.single-task:hover .edit-btn{
+  background-color: rgb(101, 204, 101);
+}
+
+.single-task:hover .check-btn{
+  background-color: rgb(101, 204, 101);
+}
+
+.edit-btn{
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+.edit-btn:hover {
+  color: black;
+}
+
+.fa-trash-alt{
+  cursor: pointer;
+}
+
+.fa-trash-alt:hover{
+  color: red;
+}
+
+.delete-btn, .edit-btn, .check-btn{
+  border: none;
+  background-color: #fff;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+
+/* edit */
+.edit__content{
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+.task__input{
+  background-color: #fff;
+}
+
+.edit__btn{
+  margin-left: auto;
+}
+
+.buttons a{
+  text-decoration: none;
+  color: black;
+}
